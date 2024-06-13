@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive GPx1 Activity Plot</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <h1>Interactive GPx1 Activity Plot</h1>
+    <div id="plot"></div>
+    <script>
+        // Your JavaScript code to render the Plotly graph
+        var trace1 = {
+            x: [1, 2, 3, 4],
+            y: [10, 15, 13, 17],
+            type: 'scatter'
+        };
+
+        var data = [trace1];
+
+        Plotly.newPlot('plot', data);
+    </script>
+</body>
+</html>
